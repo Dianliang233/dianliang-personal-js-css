@@ -1,0 +1,165 @@
+/*
+* [[m:user:Hoo man]]; 2012-08-09;
+* This is a stylesheet for all my tools
+*/
+
+/* functions.js */
+
+#inProcess {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -16px;
+	margin-top: -16px;
+	z-index: 4;
+	font-size: 15px;
+}
+#toolLinks {
+	clear : both;
+	text-align : right;
+	margin-right : 70px;
+}
+.toolinks {
+	font-size: 12px;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	white-space: normal !important;
+}
+.toolinks:hover {
+	text-decoration: underline !important;
+}
+.toolink_entry {
+	float : right;
+}
+.toolLinkSubField {
+	display : none;
+	background-color: white !important;
+	border-bottom: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+	margin-left: 15px;
+	text-align: left !important;
+	z-index: 1;
+	position: absolute;
+	padding: 3px !important;
+	white-space: normal !important;
+}
+.toolLinkSubRow {
+	clear: both !important;
+	list-style-type: none !important;
+	margin-left: 0px !important;
+	margin-bottom: 5px !important;
+	word-wrap: break-word !important;
+	display: list-item !important;
+	white-space: normal !important;
+}
+/* evil, for monobook */
+.skin-monobook #p-personal {
+	z-index: 2;
+}
+.popupWrapper {
+	position : fixed;
+	z-index: 5;
+	background-color: #F2F5F7;
+	border: 1px solid silver;
+}
+.popupTitleBar {
+	font-size : 17px;
+	width : 100%;
+	height : 30px;
+	position : absolute;
+	top : 0px;
+	color: navy;
+	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAMAAAB/qqA+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAEhQTFRF5+fn2dnZ7Ozs3Nzc4+Pj4ODg6urq5eXl5OTk4eHh3t7e6Ojo7u7u6+vr29vb4uLi7+/v39/f6enp5ubm8PDw7e3t3d3d2traTPfAeAAAADVJREFUeNoMwgESQCAAAMGLkEIi/P+nbnbpdE5tejSwa+ZSAW4tJCJVKxNNmVcjhz6FX4ABAEYmAee/HpI1AAAAAElFTkSuQmCC") repeat-x scroll #F0F0F0;
+}
+.popupTitleBarContent {
+	margin-left: 15px;
+	position: absolute;
+	top: 4px;
+}
+.popupWindowClose {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	height: 20px;
+	width: 20px;
+}
+.popupWindowClose:hover {
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	height: 20px;
+	width: 20px;
+	text-decoration: underline;
+	cursor: default;
+}
+.popupWindowResizeArea {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin-right: -5px;
+	cursor: se-resize;
+	background-color: silver;
+}
+.popupWindowResizeAreaRight {
+	height: 25px;
+	width: 2px;
+	margin-right: 0px;
+}
+.popupWindowResizeAreaBottom {
+	width: 25px;
+	height: 2px;
+	margin-bottom: 0px;
+	margin-right: -1px; 
+}
+.popupContainer {
+	overflow : auto;
+	margin-top : 35px;
+	margin-left: 15px;
+	font-size: 13px;
+	font-family: sans-serif;
+}
+.popupButtonArea {
+	width: 100%;
+	margin-left: -10px;
+}
+.popupButton {
+	float: right;
+	border-radius: 4px 4px 4px 4px;
+	border: 1px solid silver;
+	height: 28px;
+	min-width: 85px;
+	margin-right: 5px;
+	background: #F0F0F0;
+}
+
+/* tagger.js */
+
+#taggerWindow {
+	font-size: 12px;
+}
+
+/* active_sysops.js */
+
+#wikiMarker {
+	position: absolute;
+	top: 0px;
+	margin: 5px;
+	z-index: 5;
+	font-size: 16px;
+	left: 0px;
+}
+#wikiMarker span {
+	color: white;
+	margin-left: 3px;
+	margin-right: 3px;
+	padding: 2px;
+}
+#activeSysopMarker {
+	background: url("//upload.wikimedia.org/wikipedia/commons/7/79/Button_shade.png") repeat scroll 0pt 0pt black;
+	border: 1px solid gray;
+}
+#GSWikiMarker {
+	background: url("//upload.wikimedia.org/wikipedia/commons/7/79/Button_shade.png") repeat scroll 0pt 0pt purple;
+	border: 1px solid black;
+}
